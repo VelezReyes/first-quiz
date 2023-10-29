@@ -17,7 +17,7 @@ Please record a 30-60 second audio IN ENGLISH about your favorite technology lea
 - The audio must be in English. We will not process any submissions in Spanish. However! Please know we are not looking for perfect English, simply that you are taking the effort to study English well enough to be able to articulate something like this.
 - Please, no more than 60 seconds. We would like to be able to give your audio our full attention!
 
-_Your audio should be saved in this directory in any audio format such as wav, mp3, ogg, etc. and pushed to your branch with the rest of your solutions._
+_Your audio should NOT be saved in this repository. Please keep it separate so you can upload it in the submission form. It can be in any audio format such as wav, mp3, ogg, etc._
 
 ## Cloud Computing
 In this section, we would like to learn a little about your experience with cloud computing platforms such as AWS, GCP, or Azure.
@@ -36,7 +36,7 @@ Here are some tips!
 - You can do this using any platform: draw the solution on a piece of paper and upload a picture of it, Google Drawings, a free Miro board, or any other virtual whiteboard method.
 
 
-_The final submission must be a photo file in this directory pushed to your branch_
+_The final submission must be a photo file and should NOT be saved in this repository. Please make sure to keep it separate and then upload it in the submission form._
 
 ## System Security
 

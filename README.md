@@ -23,14 +23,21 @@ As you can see, this journey will also be in _English_ and we hope that this pro
 
 There are three parts to this challenge, each in their own folder: each part contains its own questions. Each part has its own README with some light instructions on what is expected of each question. As you will see, most of the questions involve editing the question file in place, and in certain circumstances, a test harness is provided.
 
-**TO START**:
+**TO START**
+
 _FORK_ the repository to commence the test. If you do not fork the repository, your participation will not be counted. Please DO NOT CLONE the repository, and make sure you fork it.
 
-**TO SUBMIT**:
-_CREATE A PULL REQUEST_ from your fork to our main branch. Your pull request must be open and registered in GitHub before the deadline. We will not accept merge requests from branches on the main repository, so please make sure you do fork the repository.
+**TO SUBMIT**
+
+There is a multi-step submit process. Please make sure you follow these instructions as we will not accept any other submission method!
+1. When your solution is ready, create a git diff patch and compress it. You can do so with the following command _from your working branch_: `git diff main > first_quiz_submission.patch && zip first_quiz_submission.zip first_quiz_submission.patch`.
+2. Your submission must be with this filename-- we will not accept any submissions that do not match the file pattern.
+3. Upload your patch, binaries, and other required information in this [form](https://forms.gle/UYnRpDorzThZmdhD7)! You can go back and update your answers as much as you want before the deadline.
+
+We will NOT accept pull requests or branches-- please make sure you use the diff generation method to generate your patch.
 
 ### The deadline is Sunday, November 5th at 3:00pm Colombia.
-We will judge the timeliness of submissions by the timestamp of your pull request. Any pushes to the pull request AFTER the cutoff will NOT be considered. You will be notified of your results on November 8th.
+We will judge the timeliness of submissions by the timestamp of your form submission. You will be notified of your results on November 8th.
 
 ```We wish you the best for this week!```
 
@@ -64,6 +71,10 @@ Yay! That's the beauty of Git. If you create your pull request before the deadli
 *I found this repository. Can I make a submission?*
 
 While you are free to use this repository to practice your engineering skills, only those who have been identified as eligible for this program and have been invited to our Slack program channel are eligible for the ver+ tech fellowship in 2024.
+
+*What if I don't have a Gmail account?*
+
+You will need a gmail account in order to use our submission form. Please make a free account (which will surely be useful in the future as well!) in order to enter your submission.
 
 
 _If there are questions not addressed here about the class, please put your questions into the `#etapa1-test` channel in Slack_
