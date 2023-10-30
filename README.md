@@ -68,10 +68,6 @@ Great question! It is up to you to edit and decide what is necessary to make a c
 
 If you believe you've discovered a true error that would prevent anyone from completing the test, please message Karen Sun in the Slack channel. You should have received a link to the Slack channel if you are eligible for this stage of the test!
 
-*What if I want to make changes to my pull request?*
-
-Yay! That's the beauty of Git. If you create your pull request before the deadline and would like to make changes, go ahead and push new commits to your pull request. We will only judge the most recent code before the deadline. In fact, we encourage you to create a pull request early and make constant pushes.
-
 *I found this repository. Can I make a submission?*
 
 While you are free to use this repository to practice your engineering skills, only those who have been identified as eligible for this program and have been invited to our Slack program channel are eligible for the ver+ tech fellowship in 2024.
