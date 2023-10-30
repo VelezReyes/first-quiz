@@ -18,7 +18,7 @@ install the pytest testing library.
 
 ```
 python3 -m venv venv
-source venv/bin/activate 
+source venv/bin/activate (windows: venv/Script/activate)
 pip install pytest
 ```
 
