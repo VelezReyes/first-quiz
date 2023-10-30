@@ -41,7 +41,7 @@ _The final submission must be a photo file and should NOT be saved in this repos
 ## System Security
 
 In this section, we will want you to demonstrate your knowledge of security best practices. Write your answer to this
-question in `security_question.md`.
+question in `security_question.md` either in English or Spanish.
 
 Suppose you are the head of Engineering for an exciting new tech startup that installs solar panels via an app. 
 It's Uber for Solar Panels! You are doing a security audit of your app's infrastructure. You are using the OWASP Top 10
