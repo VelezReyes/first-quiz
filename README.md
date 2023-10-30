@@ -60,6 +60,10 @@ We highly recommend that you find a way to complete this challenge locally. We h
 
 Part of the test is seeing an existing code base and being able to navigate the documentation and files no matter what. We encourage you to use Google, translators, and to play around with the code until it makes more sense how to proceed. The ver+ team will unfortunately NOT be providing clarifications to the instructions.
 
+*Can I make edits to any file? Including the test files?*
+
+Great question! It is up to you to edit and decide what is necessary to make a complete submission. We value attention to detail so please feel free to make necessary edits when you find them!
+
 *What if I discover a bug with the code?*
 
 If you believe you've discovered a true error that would prevent anyone from completing the test, please message Karen Sun in the Slack channel. You should have received a link to the Slack channel if you are eligible for this stage of the test!
