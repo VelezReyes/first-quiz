@@ -56,6 +56,8 @@ Remember that our team is here for you, and truly excited that each and everyone
 
 We highly recommend that you find a way to complete this challenge locally. We have designed this to require minimal packages, and if you have access to a Linux terminal, you should be able to edit and run all the code. If you absolutely cannot do so at this stage, you can also use most online REPLs such as Github Dev or REPL.it which should support the packages needed. Please keep in mind that the second stage requires a proper localhost environment setup for full stack development.
 
+If you don't have a native Linux terminal, and for example, are with a Windows machine, you can also find workarounds that allow you to get the code up and running! We encourage you to use the internet to find the equivalent commands to run the code. Remember, too, that we have provided _convenience_ configuration commands, but they are not entirely necessary to complete the test.
+
 *What if I don't understand certain instructions?*
 
 Part of the test is seeing an existing code base and being able to navigate the documentation and files no matter what. We encourage you to use Google, translators, and to play around with the code until it makes more sense how to proceed. The ver+ team will unfortunately NOT be providing clarifications to the instructions.
