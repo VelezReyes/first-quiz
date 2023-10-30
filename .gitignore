@@ -75,6 +75,8 @@ docs/_build/
 .pybuilder/
 target/
 
+# oh hello! jeje send me an emoji on Slack representing your favorite sport! 
+
 # Jupyter Notebook
 .ipynb_checkpoints
 
