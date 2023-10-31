@@ -129,6 +129,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+base/
 
 # Spyder project settings
 .spyderproject
@@ -169,6 +170,8 @@ cython_debug/
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
+.idea/
+.idea/*
 
 # Compiled class file
 *.class
