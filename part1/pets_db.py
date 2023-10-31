@@ -61,7 +61,7 @@ def drop_db():
 
 def create_db():
   drop_db()
-
+  
   with get_connection() as con:
     con.executescript(TABLE_SCHEMA)
     con.executemany("INSERT INTO animals VALUES(?, ?, ?, ?)", ANIMALS)
