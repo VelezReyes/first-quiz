@@ -7,7 +7,12 @@ public class ScottCola implements Drink{
     }
     @Override
     public String getName() {
-        return "scottCola";
+        return "ScottCola";
+    }
+
+
+    public static Integer getPrice() {
+        return 75;
     }
 
     @Override

@@ -5,7 +5,12 @@ public class KarenTea implements Drink{
     public KarenTea() {}
     @Override
     public String getName() {
-        return "krenTea";
+        return "KarenTea";
+    }
+
+
+    public static Integer getPrice() {
+        return 100;
     }
 
     @Override
