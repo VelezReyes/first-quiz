@@ -11,7 +11,7 @@ import pets_db
 ################################################################################
 #
 # Instructions:
-# Question 4 and Question 5 are about writing SQL. THey use the database that is 
+# Question 4 and Question 5 are about writing SQL. They use the database that is
 # created in the file `pets_db.py`. 
 # These questions use a database called SQLite. You do not need to install anything.
 # In the file `pets_db.py` three tables are created. Data is then added to each 
@@ -24,7 +24,10 @@ import pets_db
 
 sql_pets_owned_by_nobody = """
 
-Your SQL here.
+SELECT a.name, a.species, a.age
+FROM animals a
+LEFT JOIN people_animals pa ON a.animal_id = pa.pet_id
+WHERE pa.owner_id IS NULL;
 
 """
 
@@ -34,7 +37,10 @@ Your SQL here.
 
 sql_pets_older_than_owner = """
 
-Your SQL here.
+SELECT COUNT(a.animal_id) AS "Pets olders than owners" FROM animals a
+JOIN people_animals pa ON a.animal_id = pa.pet_id
+JOIN people p ON p.person_id = pa.owner_id
+WHERE p.age < a.age;
 
 """
 
@@ -43,6 +49,14 @@ Your SQL here.
 # The output should be a list of tuples in the format: (<person name>, <pet name>, <species>)
 sql_only_owned_by_bessie = """ 
 
-Your SQL here.
+SELECT p.name, a.name, a.species
+FROM people p
+JOIN people_animals pa on p.person_id = pa.owner_id
+JOIN animals a on a.animal_id = pa.pet_id
+WHERE p.person_id = 2 AND a.animal_id NOT IN (
+    SELECT pet_id
+    FROM people_animals
+    WHERE owner_id != p.person_id
+);
 
 """
