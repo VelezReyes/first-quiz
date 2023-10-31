@@ -33,9 +33,12 @@ CREATE TABLE favorite_foods (
 # The test suite will verify the new changes by inserting some new rows. 
 
 sql_alter_tables_with_favorite_food = """
-
-Your SQL here.
-
+ALTER TABLE ANIMALS
+ADD COLUMN favorite_food_id INTEGER;
+"""
+"""
+ALTER TABLE PEOPLE
+ADD COLUMN favorite_food_id INTEGER;
 """
 
 # Part 5.C:
