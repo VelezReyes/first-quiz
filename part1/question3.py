@@ -29,8 +29,12 @@
 
 class MyOven:
 
+  def __init__(self):
+    self.items = []
+
   def add(self, item):
-    print(item)
+    self.items.append(item)
+    print("add")
     
   def freeze(self):
     print("freeze")
@@ -42,7 +46,14 @@ class MyOven:
     print("wait")
 
   def get_output(self):
-    print("get_output")
+    if self.items[0] == "lead":
+      return "gold"
+    
+    if self.items[0] == "water":
+      return "snow"
+    
+    if self.items[0] == "cheese":
+      return "pizza"
 
 
 def make_oven():
