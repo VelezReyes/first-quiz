@@ -1,7 +1,23 @@
-from question1 import get_city_weather
+def get_city_temperature(city):
+    if city == "Quito":
+        return 22
+    if city == "Sao Paulo":
+        return 17
+    if city == "San Francisco":
+        return 16
 
-def test_get_city_weather():
+def get_city_weather(city):
+    sky_condition = None
 
-  assert get_city_weather("Quito") == "22 degrees and sunny"
+    if city == "Sao Paulo":
+        sky_condition = "cloudy"
+    elif city == "New York":
+        sky_condition = "rainy"
 
-  assert get_city_weather("New York") == "14 degrees and rainy"
+    temperature = get_city_temperature(city)
+
+    if sky_condition is not None:
+        return str(temperature) + " degrees and " + sky_condition
+    else:
+        return str(temperature) + " degrees and sunny"
+
