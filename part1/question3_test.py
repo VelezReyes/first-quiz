@@ -1,5 +1,3 @@
-from question3 import make_oven, alchemy_combine #Import needed for test to work
-
 def test_alchemy_combine():
 
   assert alchemy_combine(

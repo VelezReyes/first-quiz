@@ -14,12 +14,8 @@
 # Assign the function to `swapper` so that the function `run_swapper(..)` can use
 # it. As always, there is a test suite that checks the result. It is in 
 # `question2_test.py.`
-def swapper_function(tuple):
-  return tuple[1],tuple[0]
 
-
-
-swapper = swapper_function
+swapper = None
 
 def run_swapper(list_of_tuples):
   return list(map(swapper, list_of_tuples))
