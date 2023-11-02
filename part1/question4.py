@@ -40,8 +40,20 @@ SELECT COUNT(*) FROM animals a inner join people_animals pa on a.animal_id == pa
 # Part 4.C: BONUS CHALLENGE! 
 # Write SQL to select the pets that are owned by Bessie and nobody else.
 # The output should be a list of tuples in the format: (<person name>, <pet name>, <species>)
+
 sql_only_owned_by_bessie = """ 
 
-SELECT a.name, a.species, a.age, pa.owner_id FROM animals a right JOIN people_animals pa ON a.animal_id == pa.pet_id WHERE pa.owner_id = 2;
+SELECT p.name, a.name, a.species
+FROM people AS p
+JOIN people_animals AS pa ON p.person_id = pa.owner_id
+JOIN animals AS a ON pa.pet_id = a.animal_id
+WHERE p.name = 'bessie'
+AND pa.owner_id = (SELECT person_id FROM people WHERE name = 'bessie')
+AND NOT EXISTS (
+    SELECT 1
+    FROM people_animals AS pa2
+    WHERE pa2.pet_id = a.animal_id
+    AND pa2.owner_id <> p.person_id
+)
 
 """
