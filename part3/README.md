@@ -19,6 +19,17 @@ Please record a 30-60 second audio IN ENGLISH about your favorite technology lea
 
 _Your audio should NOT be saved in this repository. Please keep it separate so you can upload it in the submission form. It can be in any audio format such as wav, mp3, ogg, etc._
 
+Hello, I'm Diego Felipe, and picking a single favorite learning resource is no easy task. I have a penchant for self-paced courses, but I also highly value synchronous sessions where I can get real-time answers to my questions. Typically, my learning journey starts with a YouTube video from a familiar content creator. I extract the key takeaways and then venture into a world of diverse learning resources. Platforms like Udemy, Coursera, and courses from tech giants like Cisco, Oracle, and IBM are on my radar. However, these courses come with their unique challenges, such as tackling specific queries or wrapping my head around complex concepts. To overcome these hurdles, I take a two-pronged approach, simultaneously delving into official documentation, actively participating in forums, and engaging with like-minded communities. AI models like Chat GPT have been invaluable in clarifying my doubts. They offer practical examples and teach self-correction, serving as accessible virtual tutors. Of course, I always double-check the generated information to ensure its accuracy.
+
+While learning from a variety of sources may seem a bit chaotic at first, it all comes together to broaden my perspective and enhance my abstract thinking. That's why I often kickstart my learning journey with a lightweight introduction to gain a comprehensive overview. I take charge of my learning journey, meticulously planning my daily schedule to ensure consistent progress.
+
+As with any skill, practice is the key to retention, especially in the realm of information technology. What I find particularly rewarding is the ability to apply newly acquired knowledge directly to hands-on projects. I enjoy diving into the evolution of technologies, exploring their development from early iterations to cutting-edge advancements. For example, my recent exploration of Spring Boot led me to pause and delve into Java Enterprise Edition, laying a strong foundation that underpins Spring.
+
+One defining aspect of my learning approach is the parallel exploration of multiple subjects. These subjects may not always belong to the same domain, but they are often interconnected. For instance, alongside mastering a specific programming language, I might simultaneously explore project management, virtualization, Docker, cybersecurity, or enhance cross-cutting skills like improving my proficiency in English.
+
+
+
+
 ## Cloud Computing
 In this section, we would like to learn a little about your experience with cloud computing platforms such as AWS, GCP, or Azure.
 
