@@ -34,7 +34,7 @@ There is a multi-step submit process. Please make sure you follow these instruct
 2. Your submission must be with this filename-- we will not accept any submissions that do not match the file pattern.
 3. Upload your patch, binaries, and other required information in this [form](https://forms.gle/UYnRpDorzThZmdhD7)! You can go back and update your answers as much as you want before the deadline.
 
-We will NOT accept pull requests or branches-- please make sure you use the diff generation method to generate your patch.
+DO NOT OPEN A PULL REQUEST-- this will disqualify you. We will NOT accept pull requests or branches-- please make sure you use the diff generation method to generate your patch.
 
 ### The deadline is Sunday, November 5th at 3:00pm Colombia.
 We will judge the timeliness of submissions by the timestamp of your form submission. You will be notified of your results on November 8th.
