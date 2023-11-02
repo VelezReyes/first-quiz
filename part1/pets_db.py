@@ -56,7 +56,7 @@ def get_connection():
 
 def drop_db():
   with get_connection() as con:
-    for table in ["animals", "people", "people_animals", "favorite_foods"]:
+    for table in ["animals", "people", "people_animals",]:
       con.execute(f"drop table if exists {table}")
 
 def create_db():
