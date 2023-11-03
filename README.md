@@ -29,7 +29,7 @@ _FORK_ the repository to commence the test. If you do not fork the repository, y
 
 **TO SUBMIT**
 
-There is a multi-step submit process. Please make sure you follow these instructions as we will not accept any other submission method!
+There is a multi-step submit process. **DO NOT OPEN A PULL REQUEST**. THIS MIGHT DISQUALIFY YOU AUTOMATICALLY. Please make sure you follow these instructions as we will not accept any other submission method!
 1. When your solution is ready, create a git diff patch and compress it. You can do so with the following command _from your working branch_: `git diff main > first_quiz_submission.patch && zip first_quiz_submission.zip first_quiz_submission.patch`.
 2. Your submission must be with this filename-- we will not accept any submissions that do not match the file pattern.
 3. Upload your patch, binaries, and other required information in this [form](https://forms.gle/UYnRpDorzThZmdhD7)! You can go back and update your answers as much as you want before the deadline.
