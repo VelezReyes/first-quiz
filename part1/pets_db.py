@@ -55,15 +55,15 @@ def get_connection():
   return sqlite3.connect(DB_NAME)
 
 def drop_db():
-  with get_connection() as con:
+with get_connection() as con:
     for table in ["animals", "people", "people_animals", "favorite_foods"]:
       con.execute(f"drop table if exists {table}")
 
 def create_db():
-  drop_db()
+    drop_db()
 
-  with get_connection() as con:
-    con.executescript(TABLE_SCHEMA)
-    con.executemany("INSERT INTO animals VALUES(?, ?, ?, ?)", ANIMALS)
-    con.executemany("INSERT INTO people VALUES(?, ?, ?, ?)", PEOPLE)
-    con.executemany("INSERT INTO people_animals VALUES(?, ?)", PEOPLE_ANIMALS)
+    with get_connection() as con:
+        con.executescript(TABLE_SCHEMA)
+        con.executemany("INSERT INTO animals VALUES(?, ?, ?, ?)", ANIMALS)
+        con.executemany("INSERT INTO people VALUES(?, ?, ?, ?)", PEOPLE)
+        con.executemany("INSERT INTO people_animals VALUES(?, ?)", PEOPLE_ANIMALS)
