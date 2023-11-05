@@ -36,10 +36,10 @@ PEOPLE = [
 ]
 
 PEOPLE_ANIMALS = [
-  (1, 4), # scott, ricky
+  (1, 4),  # scott, ricky
   (2, 4),  # bessie, ricky
-  (2, 2), # bessie, leyla
-  (2, 7), # bessie, randolph
+  (2, 2),  # bessie, leyla
+  (2, 7),  # bessie, randolph
   (3, 3),  # karen, thommy
   (3, 5),  # karen, martin
 ]
@@ -50,9 +50,8 @@ PEOPLE_ANIMALS = [
 ###
 
 DB_NAME = "quiz_pets"
-
 def get_connection():
-  return sqlite3.connect(DB_NAME)
+return sqlite3.connect(DB_NAME)
 
 def drop_db():
   with get_connection() as con:
@@ -62,7 +61,7 @@ def drop_db():
 def create_db():
   drop_db()
 
-  with get_connection() as con:
+with get_connection() as con:
     con.executescript(TABLE_SCHEMA)
     con.executemany("INSERT INTO animals VALUES(?, ?, ?, ?)", ANIMALS)
     con.executemany("INSERT INTO people VALUES(?, ?, ?, ?)", PEOPLE)
