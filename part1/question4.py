@@ -41,8 +41,6 @@ Your SQL here.
 # Part 4.C: BONUS CHALLENGE! 
 # Write SQL to select the pets that are owned by Bessie and nobody else.
 # The output should be a list of tuples in the format: (<person name>, <pet name>, <species>)
-sql_only_owned_by_bessie = """ 
+# sql_only_owned_by_bessie = """ 
 
-Your SQL here.
-
-"""
+# Your SQL here.
