@@ -6,6 +6,8 @@
 #  \___\_\ \__,_/  \___/ /____/  \__/  /_/   \____/ /_/ /_/        /_____/   
 #                                                                            
 #  Question 5
+#
+#  Solution submitted by @daniruiz301. Thank you!!!
 ################################################################################
 #
 # Instructions:
@@ -20,9 +22,13 @@
 
 sql_create_favorite_foods = """
 
-Your SQL here.
+                CREATE TABLE favorite_foods (
+                    food_id integer not null,
+                    name text not null,
+                    vegetarian integer not null
+                    );
 
-"""
+                """
 
 # Part 5.B:
 # Alter the animals and people tables by adding a new column to each called 'favorite_food_id'
@@ -30,9 +36,12 @@ Your SQL here.
 
 sql_alter_tables_with_favorite_food = """
 
-Your SQL here.
+                ALTER TABLE animals
+                ADD favorite_food_id INTEGER;
+                ALTER TABLE people
+                ADD favorite_food_id INTEGER;
 
-"""
+                """
 
 # Part 5.C:
 # Write a query to select all pets that are vegetarian.
@@ -40,6 +49,9 @@ Your SQL here.
 
 sql_select_all_vegetarian_pets = """
 
-Your SQL here.
-
-"""
+        SELECT animals.name, favorite_foods.name
+        FROM animals
+        JOIN favorite_foods
+        ON animals.favorite_food_id = favorite_foods.food_id
+        WHERE favorite_foods.vegetarian = 1;
+        """

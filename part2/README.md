@@ -5,6 +5,8 @@ __________                __    ________
  |    |     / __ \|  | \/|  |   /       \ 
  |____|    (____  /__|   |__|   \_______ \
                 \/                      \/
+
+Solution submitted by @jfelipeforero. Thank you!!!
 ```
 
 Part 2 is a single question that must be implemented in Java. 
